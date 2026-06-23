@@ -1,0 +1,9 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: Book rental system
+            description: API for library staff to track and update the library's books.
+            version: 1.0.0
+    areas:
+        path_patterns:
+            - ^/api(?!/doc$)
